@@ -72,7 +72,7 @@ export function tx<T extends object>(
       const keys = Array.from(store.checkpoints.keys());
       const idx = keys.indexOf(name);
       for (let i = idx; i < keys.length; i++) {
-        store.checkpoints.delete(keys[i]);
+        store.checkpoints.delete(keys[i]!);
       }
     }
     restoreData(working as Record<string, unknown>, snapshot);
