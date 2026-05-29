@@ -1,6 +1,6 @@
 {
   "name": "chrova",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Transactional in-memory objects for JavaScript. Mutate freely; save checkpoints; rollback like a database savepoint.",
   "type": "module",
   "main": "./dist/index.cjs",
